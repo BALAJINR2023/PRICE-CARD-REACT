@@ -1,0 +1,64 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+.heading{
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20PX;
+  text-align: center;
+}
+.com{
+  display: flex;
+  justify-content: center;
+}
+.pricetag{
+  display: flex;
+  justify-content:space-between;
+  width:1000px;
+  margin-top: 50px;
+  padding: 10px;
+  background-image: linear-gradient(to right, rgb(57, 96, 221) , rgb(98, 179, 240));
+  border-radius: 20px;
+}
+.card{
+  padding: 10px;
+  width: 17rem;
+  height: 28rem;
+  gap: 10px;
+  margin: 20px;
+  border-radius: 20px;
+}
+.card:hover{
+  background-color:aliceblue;
+}
+button{
+  width: 15rem;
+  height:40px;
+  border-radius: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+button:hover{
+ cursor: pointer;
+ background-color: bisque;
+ margin-block: 10px;
+}
+.type{
+  text-align: center;
+  font-size: medium;
+  font-weight: bolder;
+  opacity: 0.5;
+}
+.price{
+  text-align: center;
+  font-size: larger;
+  font-weight: bolder;
+}
+.able{
+  opacity: normal;
+}
+.disable{
+  opacity: 0.5;
+}
